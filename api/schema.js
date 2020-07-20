@@ -15,7 +15,7 @@ const typeDefs = gql`
   }
 
   type Photo {
-    id: ID
+    id: ID!
     categoryId: Int
     src: String
     likes: Int
